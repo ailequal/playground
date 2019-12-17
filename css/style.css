@@ -15,25 +15,6 @@ body {
 
 /* main */
 /* large */
-@media screen and (min-width: 1080px) {
-  body {
-    font-size: 1em;
-  }
-}
-
-/* medium */
-@media screen and (min-width: 768px) and (max-width: 1080px) {
-  body {
-    font-size: 0.9em;
-  }
-}
-
-/* small */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 0.8em;
-  }
-}
 
 /* footer */
 /* empty */
