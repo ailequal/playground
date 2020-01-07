@@ -1,7 +1,19 @@
-var myNumber = 2;
-var txt = "";
-while (myNumber != Infinity) {
-   myNumber = myNumber * myNumber;
-   txt = txt + myNumber + "<br>";
+// prefix
+console.log('prefix');
+for (var i = 0; i < 5; ++i) {
+  console.log(i);
 }
-document.getElementById("demo").innerHTML = txt;
+
+
+// postfix
+console.log('postfix');
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+
+// test
+console.log('test');
+for (var i = 0; i < 5; i = i + 1) {
+  console.log(i);
+}
